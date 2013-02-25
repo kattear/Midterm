@@ -6,7 +6,7 @@
 }
 
 body{
-	background: url("../images/WoodFine0007_M.jpg") repeat left top;
+	background: url("../images/woodfine0007_m.jpg") repeat left top;
 	font-family: 'EB Garamond', serif;
 }
 
@@ -19,14 +19,20 @@ body{
 	margin: 1em auto;
 }
 
-header{
+#logo{
 	width: 17%;
-/* 	float: left; */
-/* 	clear: none; */
+	float: left;
+	clear: none;
 }
 
 h1{
 	padding: .45em;
+	font: 250%;
+	color: rgb(207, 23, 31)
+}
+
+h2{
+	font: 120%;
 }
 
 nav ul li{
@@ -119,5 +125,5 @@ footer{
 }
 
 .red{
-	color: rgba(207, 23, 31, 0.5);
+	color: rgb(207, 23, 31);
 }
